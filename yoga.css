@@ -85,3 +85,15 @@ font-style: italic;
 text-align: center; 
 padding: 1em;
 }
+table { 
+margin: auto;
+width: 90%; 
+border-collapse: collapse; 
+}
+td, th { 
+padding: 5px;
+border: 1px solid #3399CC;  
+}
+td { text-align: center; }
+.text { text-align: left; }
+tr:nth-of-type(even) { background-color: #F5FAFC; }
